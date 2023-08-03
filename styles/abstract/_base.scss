@@ -1,4 +1,11 @@
+@import './variaveis';
+
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-principal;
+    background-color: $cor-branco;
+}
+
+.servicos {
+    background: $linear-gradient;
 }
 

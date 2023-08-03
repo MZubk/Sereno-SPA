@@ -1,0 +1,14 @@
+@import '../abstract/variaveis';
+
+#descontos {
+    background-color: $cor-tercearia;
+    padding: 4rem; 
+    text-align: center;
+    .texto {
+        color: $cor-primaria;
+        h2 {
+            margin: 2rem;
+            font-size: $tamanho-do-texto /1.7;
+        }
+    }
+}
