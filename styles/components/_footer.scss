@@ -1,0 +1,10 @@
+@import '../abstract/variaveis';
+
+footer {
+    text-align: center;
+    font-size: $tamanho-do-texto /3;
+    border-top: 2px solid $cor-primaria;
+    padding: 1rem;
+    color: $cor-primaria;
+    background-color: $cor-tercearia;
+}

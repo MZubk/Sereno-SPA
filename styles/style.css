@@ -7,6 +7,10 @@ html, body {
   background: linear-gradient(#CEE6F3, #DFA878);
 }
 
+.sobre {
+  background: linear-gradient(#DFA878, #BA704F);
+}
+
 nav {
   text-align: center;
 }
@@ -26,7 +30,7 @@ nav ul li a:hover {
 
 .banner {
   background: url(/../imagens/banner.jpeg) 27% center no-repeat;
-  min-height: 350px;
+  min-height: 32.4vh;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -51,6 +55,22 @@ nav ul li a:hover {
   color: #6C3428;
 }
 
+@media screen and (max-width: 480px) {
+  .banner {
+    background: url(/../imagens/banner.jpeg) 27% center no-repeat;
+    min-height: 250px;
+    padding: 1.1rem;
+  }
+  .banner .inner-banner {
+    padding: 2rem 1rem;
+  }
+  .banner .inner-banner h1 {
+    font-size: 2rem;
+  }
+  .banner .inner-banner h2 {
+    font-size: 1.3636363636rem;
+  }
+}
 #servicos {
   padding: 80px;
 }
@@ -99,6 +119,12 @@ nav ul li a:hover {
   max-width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  #servicos .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 #descontos {
   background-color: #DFA878;
   padding: 4rem;
@@ -110,4 +136,121 @@ nav ul li a:hover {
 #descontos .texto h2 {
   margin: 2rem;
   font-size: 1.7647058824rem;
+}
+#descontos .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background: white;
+}
+#descontos .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#descontos .input:hover, #descontos .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #6C3428;
+  outline: none;
+}
+#descontos button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 8rem;
+  background-color: #6C3428;
+  color: #DFA878;
+  border: 2px #6C3428;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+#descontos button:hover {
+  color: #6C3428;
+  background-color: #BA704F;
+  box-shadow: 1px 1px 8px 1px #6C3428;
+}
+
+@media screen and (max-width: 480px) {
+  #descontos {
+    padding: 1.5rem;
+  }
+  #descontos .input {
+    width: 300px;
+  }
+  #descontos .input input {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #descontos {
+    padding: 1.5rem;
+  }
+  #descontos .input {
+    width: 300px;
+  }
+  #descontos .input input {
+    width: 300px;
+  }
+}
+#sobre {
+  display: flex;
+  padding: 80px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#sobre .img-container {
+  width: 40rem;
+}
+#sobre .img-container img {
+  max-width: 100%;
+}
+#sobre .texto {
+  padding-left: 4rem;
+}
+#sobre .texto h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #6C3428;
+}
+#sobre .texto h4 {
+  font-size: 1.5rem;
+  color: #6C3428;
+  padding: 18px 0 12px 0;
+}
+#sobre .texto p {
+  font-size: 1.0714285714rem;
+  color: #6C3428;
+}
+
+@media screen and (max-width: 480px) {
+  #sobre {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  #sobre .img-container img {
+    max-width: 100%;
+  }
+  #sobre .texto {
+    padding-left: 0;
+  }
+  #sobre .texto p {
+    padding-bottom: 1.5rem;
+  }
+}
+footer {
+  text-align: center;
+  font-size: 1rem;
+  border-top: 2px solid #6C3428;
+  padding: 1rem;
+  color: #6C3428;
+  background-color: #DFA878;
 }/*# sourceMappingURL=style.css.map */

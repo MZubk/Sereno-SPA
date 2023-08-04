@@ -2,7 +2,7 @@
 
 .banner {
     background: url(/../imagens/banner.jpeg) 27% center no-repeat;
-    min-height: 350px;
+    min-height: 32.40vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -25,4 +25,21 @@
             color: $cor-primaria;            
         }
     }
+}
+
+@media screen and (max-width: 480px) {
+    .banner {
+        background: url(/../imagens/banner.jpeg) 27% center no-repeat;
+        min-height: 250px;
+        padding: 1.1rem;
+        .inner-banner {
+            padding: 2rem 1rem;
+            h1 {
+                font-size: $tamanho-do-texto/1.5;
+            }
+            h2 {
+                font-size: $tamanho-do-texto/2.2;
+            }
+        }
+   }
 }
