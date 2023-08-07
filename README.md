@@ -1,10 +1,9 @@
-# Site do Sereno SPA
+# Sereno SPA
 
-
-todo estilizado em SCSS
+Site estilizado em SCSS
 </br>
-é um fake site de um SPA
+fake site do Sereno SPA feito no curso de <a href="https://cursos.alura.com.br/course/sass-css-sintaticamente-espetacular">SASS: CSS sintaticamente espetacular<a/> na Alura 
 </br>
 ## https://sereno-spa.vercel.app/
 </br>
-<img src="https://github.com/MZubk/Sereno-SPA/issues/1#issue-1837397763"/>
+<img src="https://github.com/MZubk/Sereno-SPA/assets/69257259/1a7c0d03-c6d4-417d-8fbc-beea4e7a835f"/>
